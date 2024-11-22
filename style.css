@@ -21,11 +21,56 @@ body {
     overflow: hidden;
 }
 
-@media (min-width: 1024px) {
-    .side {
-        height: 100vh;
-    }
+/* Media queries pour les petits écrans */
+@media (max-width: 768px) {
+  /* Ajustement de la structure principale */
+  body {
+      flex-direction: column; /* Passer en disposition verticale */
+  }
+
+  .side {
+      width: 100%; /* La barre latérale occupe toute la largeur */
+      height: auto; /* S'ajuste en hauteur */
+  }
+
+  .main_side {
+      width: 100%; /* La section principale occupe toute la largeur */
+  }
+
+  .avatar {
+      height: 20vh; /* Ajustement de la taille de l'avatar */
+  }
+
+  .side-logo {
+      height: 15vh; /* Réduction de la taille du logo */
+  }
+
+  /* Barre de navigation */
+  .navigation_bar {
+      flex-direction: column; /* Les boutons passent à une disposition verticale */
+      height: auto; /* Ajustement de la hauteur */
+  }
+
+  .NavigationButtons {
+      width: 100%; /* Les boutons occupent toute la largeur */
+  }
+
+  /* Texte dans la description */
+  .side .description {
+      font-size: 1.2rem; /* Réduction de la taille du texte */
+      padding: 10px;
+  }
+
+  /* Grilles */
+  .grid-container {
+      grid-template-columns: 1fr; /* Une seule colonne sur petits écrans */
+  }
+
+  .grid-illu img {
+      max-height: 200px; /* Limite supplémentaire pour les images */
+  }
 }
+
 
 p, h4, button {
     font-family: 'Lato', sans-serif;
