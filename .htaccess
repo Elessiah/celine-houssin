@@ -9,10 +9,14 @@ RewriteRule ^(.*)$ http://www.example.com/$1 [L,R=301]
 RewriteCond %{HTTPS} off
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+# Permet l'accès à robots.txt et sitemap.xml
+<FilesMatch "^(robots\.txt|sitemap\.xml)$">
+    Require all granted
+</FilesMatch>
+
 # Empêche l'accès direct aux fichiers .htaccess et .git
 <FilesMatch "^\.">
-    Order Deny,Allow
-    Deny from all
+    Require all denied
 </FilesMatch>
 
 # Sécurise les en-têtes HTTP
@@ -32,6 +36,7 @@ ErrorDocument 403 /403.html
 # Compression gzip des fichiers
 <IfModule mod_deflate.c>
     AddOutputFilterByType DEFLATE text/plain text/html text/xml text/css application/x-javascript application/javascript
+    AddOutputFilterByType DEFLATE font/ttf font/otf font/woff font/woff2
 </IfModule>
 
 # Cache des fichiers statiques
@@ -42,6 +47,8 @@ ErrorDocument 403 /403.html
     ExpiresByType image/jpeg "access plus 1 month"
     ExpiresByType image/gif "access plus 1 month"
     ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/webp "access plus 1 month"
+    ExpiresByType image/svg+xml "access plus 1 month"
     ExpiresByType text/css "access plus 1 month"
     ExpiresByType application/javascript "access plus 1 month"
 </IfModule>
