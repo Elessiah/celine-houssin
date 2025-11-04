@@ -17,8 +17,17 @@ body {
     text-align : center;
     display: flex;
     flex-direction: column;
-    font-size: 2rem;
+    font-size: 1rem;
     overflow: hidden;
+}
+
+.link_mention_legale {
+    text-decoration-color: purple;
+    display: none;
+}
+
+#BPML {
+    display: block;
 }
 
 /* Media queries pour les petits écrans */
@@ -68,6 +77,14 @@ body {
 
   .grid-illu img {
       max-height: 200px; /* Limite supplémentaire pour les images */
+  }
+
+  .link_mention_legale {
+      display: block;
+  }
+
+  #BPML {
+      display: none;
   }
 }
 
