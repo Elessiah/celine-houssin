@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: 
-Sitemap: https://celine-houssin.fr/sitemap.xml

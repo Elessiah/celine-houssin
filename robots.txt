@@ -1,0 +1,6 @@
+﻿User-agent: *
+Allow: /
+Disallow: /src/
+Disallow: /scripts/
+Disallow: /orignal_res.zip
+Sitemap: https://celine-houssin.fr/sitemap.xml

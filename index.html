@@ -1,73 +1,100 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hypnose Thérapeutique</title>
+    <title>Hypnose à Caen - Céline HOUSSIN</title>
+    <meta name="description" content="Praticienne en hypnose à Caen, Céline Houssin vous accompagne avant ou après une étape de vie pour mieux gérer stress, émotions et inconforts." />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://celine-houssin.fr/" />
 
-    <!-- SEO Meta tags -->
-    <meta name="description" content="Hypnose thérapeutique pour vous accompagner avant ou après une intervention opératoire. ( douleurs - anxiété)"/>
-    <meta name="keywords" content="hypnose, intervention, opération, accompagnement, Caen, anxiété, stress, Céline, HOUSSIN" />
-    <meta name="Celine HOUSSIN" />
+    <meta property="og:title" content="Hypnose à Caen - Céline HOUSSIN" />
+    <meta property="og:description" content="Praticienne en hypnose à Caen, Céline Houssin vous accompagne avant ou après une étape de vie pour mieux gérer stress, émotions et inconforts." />
+    <meta property="og:image" content="https://celine-houssin.fr/res/logoC%C3%A9lineHoussin.png" />
+    <meta property="og:url" content="https://celine-houssin.fr/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Céline Houssin" />
 
-    
-    <!-- Open Graph Meta Tags pour les réseaux sociaux -->
-    <meta property="og:title" content="Hypnose Thérapeutique - Céline HOUSSIN" />
-    <meta property="og:description" content="Hypnose thérapeutique pour vous accompagner avant ou après une intervention opératoire. ( douleurs - anxiété)" />
-    <meta property="og:image" content="res/logoCélineHoussin.png">
-    <meta property="og:url" content="https://celine-houssin.fr">
-    <meta property="og:type" content="website">
-
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image"> <!-- Pour la forme de la carte sur Twitter-->
-    <meta name="twitter:title" content="Hypnose Thérapeutique - Céline HOUSSIN"/>
-    <meta name="twitter:description" content="ypnose thérapeutique pour vous accompagner avant ou après une intervention opératoire. ( douleurs - anxiété)" />
-    <meta name="twitter:image" content="res/logoCélineHoussin.png"/>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hypnose à Caen - Céline HOUSSIN" />
+    <meta name="twitter:description" content="Praticienne en hypnose à Caen, Céline Houssin vous accompagne avant ou après une étape de vie pour mieux gérer stress, émotions et inconforts." />
+    <meta name="twitter:image" content="https://celine-houssin.fr/res/logoC%C3%A9lineHoussin.png" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" href="res/logoCélineHoussin32.png" type="image/png">
     <link rel="stylesheet" href="style.css">
-    <script src="scripts/switch_pushed_button.js"></script>
-    <script src="scripts/set_content.js"></script>
-</head>
+    <script>
+    (function () {
+        const redirects = {
+            "pre-operation": "avant-epreuve/",
+            "post-operation": "apres-epreuve/",
+            "comment": "comment/",
+            "pourquoi": "pourquoi/",
+            "pour_qui": "pour-qui/",
+            "tarif": "tarif/",
+            "about": "qui-suis-je/"
+        };
+
+        const p = new URLSearchParams(window.location.search).get('p');
+        if (p && redirects[p]) {
+            window.location.replace(redirects[p]);
+        }
+    })();
+    </script></head>
 <body>
     <div class="side">
         <div class="header-side">
-            <img src="res/Avatar.jpg" class="avatar" alt="Photo de la thérapeute"/>
-            <h1>Céline HOUSSIN</h1>
-            <h2>06.60.56.12.77</h2>
+            <img src="res/Avatar.jpg" class="avatar" alt="Photo de la thérapeute" loading="eager" decoding="async" fetchpriority="high" />
+            <p class="site-name">Céline HOUSSIN</p>
+            <a class="site-phone" href="tel:+33660561277">06.60.56.12.77</a>
             <h3><strong>Praticienne en Hypnose</strong></h3>
             <h4><strong>Préparation Avant ou Après une étape de vie</strong></h4>
         </div>
         <div class="description">
             <p>
                 Soignante depuis 25 ans, je suis passionnée par mon
-                métier et profondément engagée dans le bien-être de mes patients. 
+                métier et profondément engagée dans le bien-être de mes patients.
             </p>
             <p>
                 Chaque jour, j'ai à cœur de les accompagner avec douceur et empathie, pour transformer des moments
                 parfois difficiles en expériences plus sereines.
             </p>
-            <p><a class="link_mention_legale" href="src/legal_mention.html">Mentions légales</a></p>
-        <img src="res/logoCélineHoussin.png" class="side-logo" alt="Logo de la thérapeute, c'est une main d'où sorte des bulles redonnant de la couleur au papillon qui vole au dessus"/>
+            <p><a class="link_mention_legale" href="mentions-legales/">Mentions légales</a></p>
+            <img src="res/logoCélineHoussin.png" class="side-logo" alt="Logo de la thérapeute, c'est une main d'où sortent des bulles redonnant de la couleur au papillon qui vole au dessus" loading="lazy" decoding="async" />
         </div>
     </div>
     <div class="main_side">
         <div class="navigation_bar">
-            <button class="NavigationButtons" id="BPaccueil" value="accueil">Osez !</button>
-            <button class="NavigationButtons" id="BPcomment" value="comment">Comment ?</button>
-            <button class="NavigationButtons" id="BPpourquoi" value="pourquoi">Pourquoi ?</button>
-            <button class="NavigationButtons" id="BPpour_qui" value="pour_qui">Pour qui ?</button>
-            <button class="NavigationButtons" id="BPtarif" value="tarif">Séance</button>
-            <button class="NavigationButtons" id="BPabout" value="about">Qui suis-je ?</button>
-            <button class="NavigationButtons" id="BPML" onclick="location.href='src/legal_mention.html'">Mentions légales</button>
+            <a class="NavigationButtons active" id="BPaccueil" href="./">Osez !</a>
+            <a class="NavigationButtons" id="BPcomment" href="comment/">Comment ?</a>
+            <a class="NavigationButtons" id="BPpourquoi" href="pourquoi/">Pourquoi ?</a>
+            <a class="NavigationButtons" id="BPpour_qui" href="pour-qui/">Pour qui ?</a>
+            <a class="NavigationButtons" id="BPtarif" href="tarif/">Séance</a>
+            <a class="NavigationButtons" id="BPabout" href="qui-suis-je/">Qui suis-je ?</a>
+            <a class="NavigationButtons" id="BPML" href="mentions-legales/">Mentions légales</a>
         </div>
-        <div id="content">Erreur... Si vous avez le temps, envoyez moi rapidement un sms au 06.02.22.49.56. Merci d'avance ♥</div>
+        <div id="content">
+<div class="accueilBody">
+    <h1 class="visually-hidden">Hypnose à Caen: préparation avant ou après une étape de vie</h1>
+    <div class="split-screen">
+        <a class="image-container" id="left" href="avant-epreuve/" aria-label="Se préparer avec l'hypnose avant une étape importante">
+            <div class="overlay">
+                <h2>Osez vous préparer avec l'hypnose !</h2>
+            </div>
+        </a>
+        <a class="image-container" id="right" href="apres-epreuve/" aria-label="Mieux vivre l'après avec l'hypnose">
+            <div class="overlay">
+                <h2>Osez l'hypnose après une épreuve !</h2>
+            </div>
+        </a>
     </div>
-    <script src="scripts/load_content.js"></script>
-    <script src="scripts/manage_navigation.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</div>
+        </div>
+    </div>
 </body>
 </html>
