@@ -1,4 +1,4 @@
-:root {
+﻿:root {
     --bg-ivory: #f8f4ef;
     --bg-rose: #f2dfd8;
     --bg-mist: #e4efea;
@@ -655,6 +655,47 @@ h4 {
     color: #4a2130;
     margin-bottom: 0.45rem;
 }
+.faq-blog {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    margin-top: 0.8rem;
+}
+
+.faq-post {
+    background: linear-gradient(180deg, #fffefe 0%, #fff8f5 100%);
+    border: 1px solid #ead8d2;
+    border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(88, 66, 60, 0.11);
+    padding: 1rem 1.05rem;
+}
+
+.faq-post-kicker {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 0.38rem;
+    padding: 0.16rem 0.52rem;
+    border-radius: 999px;
+    background: #f6e8e3;
+    border: 1px solid #e7d0c8;
+    color: #8f2d58;
+    font-size: 0.76rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.faq-post p {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.02rem;
+    color: var(--ink-soft);
+    line-height: 1.45;
+    text-align: left;
+}
+
+.faq-post p:last-child {
+    margin-bottom: 0;
+}
 
 .legal-page {
     gap: 1rem;
@@ -1173,6 +1214,8 @@ h4 {
         justify-content: center;
     }
 }
+
+
 
 
 
