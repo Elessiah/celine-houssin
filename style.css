@@ -1344,3 +1344,47 @@ h4 {
         height: min(68vh, 760px);
     }
 }
+
+.reviews-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.9rem;
+}
+
+.reviews-lead {
+    grid-column: 1 / -1;
+}
+
+.review-item {
+    position: relative;
+    padding: 1rem;
+    background: linear-gradient(165deg, #fffefc 0%, #fff8f5 100%);
+}
+
+.review-kicker {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 0.45rem;
+    padding: 0.16rem 0.5rem;
+    border-radius: 999px;
+    background: #f6e8e3;
+    border: 1px solid #e7d0c8;
+    color: #8f2d58;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.review-topic {
+    margin: 0;
+    color: #5f4f4d;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .reviews-grid {
+        grid-template-columns: 1fr;
+    }
+}
