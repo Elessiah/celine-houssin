@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -30,13 +30,15 @@
     <script>
     (function () {
         const redirects = {
-            "pre-operation": "avant-epreuve/",
-            "post-operation": "apres-epreuve/",
-            "comment": "comment/",
-            "pourquoi": "pourquoi/",
-            "pour_qui": "pour-qui/",
-            "tarif": "tarif/",
-            "about": "qui-suis-je/"
+            "pre-operation": "pages/avant-epreuve/",
+            "post-operation": "pages/apres-epreuve/",
+            "autre-accompagnements": "autre-accompagnements/",
+            "comment": "pages/comment/",
+            "pourquoi": "pages/pourquoi/",
+            "pour_qui": "pages/pour-qui/",
+            "tarif": "pages/tarif/",
+            "about": "pages/qui-suis-je/",
+            "faq": "faq/"
         };
 
         const p = new URLSearchParams(window.location.search).get('p');
@@ -45,8 +47,7 @@
         }
     })();
     </script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"url":"https://celine-houssin.fr/","areaServed":[{"name":"Caen","@type":"City"},{"name":"Calvados","@type":"AdministrativeArea"}],"@type":"LocalBusiness","telephone":"+33660561277","image":"https://celine-houssin.fr/res/Avatar.jpg","name":"Céline Houssin - Praticienne en Hypnose","address":{"postalCode":"14000","addressLocality":"Caen","@type":"PostalAddress","addressCountry":"FR"},"priceRange":"EUR 60","@id":"https://celine-houssin.fr/#localbusiness"},{"areaServed":{"name":"Caen et agglomération","@type":"AdministrativeArea"},"@id":"https://celine-houssin.fr/#service-hypnose","provider":{"@id":"https://celine-houssin.fr/#localbusiness"},"serviceType":"Accompagnement en hypnose","@type":"Service","offers":{"price":"60","priceCurrency":"EUR","url":"https://celine-houssin.fr/tarif/","@type":"Offer"}},{"isPartOf":{"url":"https://celine-houssin.fr/","name":"Céline Houssin","@type":"WebSite"},"name":"Hypnose à Caen - Céline HOUSSIN","@id":"https://celine-houssin.fr/#webpage","description":"Praticienne en hypnose à Caen, Céline Houssin vous accompagne avant ou après une intervention médicale pour mieux gérer stress, émotions et inconforts.","about":{"@id":"https://celine-houssin.fr/#service-hypnose"},"@type":"WebPage","url":"https://celine-houssin.fr/"}]}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","mainEntity":[{"acceptedAnswer":{"text":"Le tarif est de 60 EUR par séance. Les modalités sont détaillées sur la page tarif.","@type":"Answer"},"name":"Combien coûte une séance d\u0027hypnose à Caen ?","@type":"Question"},{"acceptedAnswer":{"text":"Une séance dure en général environ une heure et demie, avec un accompagnement ajusté à votre rythme et à vos besoins.","@type":"Answer"},"name":"Combien de temps dure une séance ?","@type":"Question"},{"acceptedAnswer":{"text":"L\u0027hypnose peut accompagner la gestion du stress, des émotions et de certains inconforts physiques avant ou après une intervention médicale.","@type":"Answer"},"name":"Pour quelles situations l\u0027hypnose peut aider ?","@type":"Question"}],"@type":"FAQPage"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"url":"https://celine-houssin.fr/","areaServed":[{"name":"Caen","@type":"City"},{"name":"Calvados","@type":"AdministrativeArea"}],"@type":"LocalBusiness","telephone":"+33660561277","image":"https://celine-houssin.fr/res/Avatar.jpg","name":"Céline Houssin - Praticienne en Hypnose","address":{"postalCode":"14000","addressLocality":"Caen","@type":"PostalAddress","addressCountry":"FR"},"priceRange":"EUR 60","@id":"https://celine-houssin.fr/#localbusiness"},{"areaServed":{"name":"Caen et agglomération","@type":"AdministrativeArea"},"@id":"https://celine-houssin.fr/#service-hypnose","provider":{"@id":"https://celine-houssin.fr/#localbusiness"},"serviceType":"Accompagnement en hypnose","@type":"Service","offers":{"price":"60","priceCurrency":"EUR","url":"https://celine-houssin.fr/pages/tarif/","@type":"Offer"}},{"isPartOf":{"url":"https://celine-houssin.fr/","name":"Céline Houssin","@type":"WebSite"},"name":"Hypnose à Caen - Céline HOUSSIN","@id":"https://celine-houssin.fr/#webpage","description":"Praticienne en hypnose à Caen, Céline Houssin vous accompagne avant ou après une intervention médicale pour mieux gérer stress, émotions et inconforts.","about":{"@id":"https://celine-houssin.fr/#service-hypnose"},"@type":"WebPage","url":"https://celine-houssin.fr/"}]}</script>
     <script defer src="/res/mobile-nav.js"></script>
 </head>
 <body>
@@ -54,9 +55,8 @@
         <div class="header-side">
             <img src="res/Avatar.jpg" class="avatar" alt="Photo de la thérapeute" loading="eager" decoding="async" fetchpriority="high" width="600" height="600" />
             <p class="site-name">Céline HOUSSIN</p>
-            <a class="site-phone" href="tel:+33660561277">06.60.56.12.77</a>
             <h3><strong>Praticienne en Hypnose</strong></h3>
-            <h4><strong>Accompagnement autour des chirurgies, IRM et examens médicaux</strong></h4>
+            <h4><strong>Avant chirurgie, IRM et soins médicaux</strong></h4>
         </div>
                 <div class="description">
             <p>
@@ -64,99 +64,61 @@
                 métier et profondément engagée dans le <strong>bien-être de mes patients</strong>.
             </p>
             <p>
-                J'accompagne les personnes qui doivent faire face à une <strong>chirurgie, une IRM, une endoscopie ou un autre examen médical</strong>, afin de <strong>réduire l'appréhension</strong> et de <strong>mieux vivre le soin</strong>.
+                J'accompagne les personnes qui font face à une <strong>chirurgie, une IRM, une endoscopie ou un autre soin médical</strong>, mais aussi les aidants qui les soutiennent, et toute personne qui souhaite mieux gérer le stress, qu'il s'agisse d'un examen académique ou des tensions du quotidien.
             </p>
-            <div class="sidebar-cta">
-                <p class="sidebar-cta-title">Prendre rendez-vous</p>
-                <a class="cta-call" href="tel:+33660561277">Appeler le 06.60.56.12.77</a>
-            </div>
             <div class="sidebar-local-links">
-                <p class="sidebar-local-title">Guides Hypnose à Caen</p>
-                <a class="sidebar-local-highlight" href="avant-epreuve/">Hypnose préparation intervention médicale</a>
-                <a href="hypnose-caen/">Hypnose à Caen</a>
-                <a href="gestion-stress-caen/">Gestion du stress à Caen</a>
-                <a href="gestion-douleur-caen/">Gestion de la douleur à Caen</a>
-                <a class="sidebar-local-highlight" href="pourquoi/">Deuil difficile</a>
-                <a class="sidebar-local-highlight" href="pourquoi/">Troubles du sommeil</a>
+                <p class="sidebar-local-title">FAQ</p>
+                <a class="cta-call sidebar-faq-link" href="faq/">Accéder à la FAQ</a>
             </div>
-            <p><a class="link_mention_legale" href="mentions-legales/">Mentions légales</a></p>
+            <p><a class="link_mention_legale" href="pages/mentions-legales/">Mentions légales</a></p>
             <img src="res/logoCélineHoussin.png" class="side-logo" alt="Logo de la thérapeute, c'est une main d'où sortent des bulles redonnant de la couleur au papillon qui vole au dessus" loading="lazy" decoding="async" width="512" height="512" />
         </div>
     </div>
     <div class="main_side">
         <div class="navigation_bar">
             <a class="NavigationButtons active" id="BPaccueil" href="./">Osez !</a>
-            <a class="NavigationButtons" id="BPcomment" href="comment/">Comment ?</a>
-            <a class="NavigationButtons" id="BPpourquoi" href="pourquoi/">Pourquoi ?</a>
-            <a class="NavigationButtons" id="BPpour_qui" href="pour-qui/">Pour qui ?</a>
-            <a class="NavigationButtons" id="BPtarif" href="tarif/">Séance</a>
-            <a class="NavigationButtons" id="BPabout" href="qui-suis-je/">Qui suis-je ?</a>
-            <a class="NavigationButtons" id="BPML" href="mentions-legales/">Mentions légales</a>
+            <a class="NavigationButtons" id="BPcomment" href="pages/comment/">Comment ?</a>
+            <a class="NavigationButtons" id="BPpourquoi" href="pages/pourquoi/">Pourquoi ?</a>
+            <a class="NavigationButtons" id="BPpour_qui" href="pages/pour-qui/">Pour qui ?</a>
+            <a class="NavigationButtons" id="BPtarif" href="pages/tarif/">Séance</a>
+            <a class="NavigationButtons" id="BPabout" href="pages/qui-suis-je/">Qui suis-je ?</a>
+            <a class="NavigationButtons" id="BPML" href="pages/mentions-legales/">Mentions légales</a>
         </div>
         <div id="content">
 <div class="accueilBody">
     <h1 class="visually-hidden">Hypnose à Caen: préparation avant ou après une intervention médicale</h1>
     <div class="split-screen">
-        <a class="image-container" id="left" href="avant-epreuve/" aria-label="Se préparer avec l'hypnose avant une intervention médicale">
+        <a class="image-container" id="left" href="pages/avant-epreuve/" aria-label="Se préparer avec l'hypnose avant une intervention médicale">
             <div class="overlay">
                 <h2>Se préparer avant une chirurgie ou une IRM<br />ou un soin médical</h2>
                 <span class="overlay-cta" aria-hidden="true">Cliquer pour ouvrir</span>
             </div>
         </a>
-        <a class="image-container" id="right" href="apres-epreuve/" aria-label="Mieux vivre l'après avec l'hypnose">
+        <a class="image-container" id="right" href="pages/apres-epreuve/" aria-label="Mieux vivre l'après avec l'hypnose">
             <div class="overlay">
                 <h2>Récupérer plus sereinement après l'intervention</h2>
                 <span class="overlay-cta" aria-hidden="true">Cliquer pour ouvrir</span>
             </div>
         </a>
+    </div>
+    <a class="image-container image-container-wide" id="other-support" href="autre-accompagnements/" aria-label="Découvrir les autres accompagnements en hypnose">
+        <div class="overlay overlay-wide">
+            <h2>Autres accompagnements</h2>
+            <p class="overlay-copy">Stress &amp; examens, deuil difficile, douleurs chroniques, troubles du sommeil...</p>
+            <span class="overlay-cta" aria-hidden="true">Cliquer pour ouvrir</span>
         </div>
+    </a>
     <section class="home-intro">
-        <h2>Un <strong>accompagnement en hypnose</strong> avant et après vos soins</h2>
-        <p>Certaines opérations peuvent provoquer du stress, de l'appréhension ou des difficultés à se projeter sereinement dans la période qui précède l'hospitalisation. L'<strong>hypnose</strong> est un outil reconnu pour aider à apaiser ces tensions et préparer l'esprit à vivre cette étape avec plus de <strong>calme</strong> et de <strong>confiance</strong>.</p>
-        <p>Je propose un <strong>accompagnement en hypnose</strong> pour les personnes qui souhaitent se préparer mentalement à une <strong>intervention chirurgicale</strong> ou mieux vivre la période post-opératoire.</p>
-        <p>Cet accompagnement ne remplace pas un suivi médical. Il s'inscrit en complément du parcours de soins, pour soutenir le <strong>bien-être</strong> et favoriser une meilleure <strong>gestion du stress</strong>.</p>
+        <h2>Un <strong>accompagnement en hypnose</strong> avant, pendant et après vos soins</h2>
+        <p>Une opération qui approche, une IRM qui vous angoisse, un diagnostic difficile à accepter... Ces moments peuvent peser lourd, autant dans la tête que dans le corps.</p>
+        <p>Je vous accompagne avant l'intervention, pour aborder le soin avec plus de calme et de confiance. Mais aussi après, parce que la récupération, on en parle trop peu : réapprivoiser son corps, accepter une cicatrice, s'adapter à une prothèse, retrouver confiance dans ses capacités... c'est tout un chemin, et vous n'avez pas à le faire seul.</p>
+        <p>J'accompagne également les aidants, ceux qui soutiennent un proche face à la maladie, au handicap ou à une période difficile. Parce qu'accompagner quelqu'un, ça demande aussi des ressources, et vous avez le droit d'être soutenu vous aussi.</p>
+        <p>Cet accompagnement s'inscrit toujours en complément du suivi médical, jamais à sa place.</p>
         <div class="home-intro-links">
-            <a href="comment/">Comment fonctionne l'hypnose ?</a>
-            <a href="pourquoi/">Dans quels cas l'hypnose peut aider ?</a>
-            <a href="pour-qui/">Pour qui est cet accompagnement ?</a>
-            <a href="tarif/">Voir le tarif des séances</a>
-        </div>
-    </section>
-    <section class="home-other-cards" id="autres-accompagnements">
-        <div class="grid-container">
-            <article class="grid-item content-card">
-                <div class="grid-content">
-                    <div class="grid-illu">
-                        <img src="res/vueLacPaisible.jpg" alt="Paysage naturel apaisant pour le deuil difficile" loading="lazy" decoding="async" width="1600" height="1200" />
-                    </div>
-                    <div class="grid-text">
-                        <h2>Deuil difficile</h2>
-                        <p>La perte d’un proche peut laisser une <strong>douleur émotionnelle</strong> profonde et parfois durable. L’<strong>hypnose</strong> peut aider à apaiser les émotions et à traverser cette période plus sereinement.</p>
-                    </div>
-                </div>
-            </article>
-            <article class="grid-item content-card">
-                <div class="grid-content">
-                    <div class="grid-illu">
-                        <img src="res/montagneEpique.jpg" alt="Paysage de nature pour l'accompagnement des douleurs chroniques" loading="lazy" decoding="async" width="700" height="933" />
-                    </div>
-                    <div class="grid-text">
-                        <h2>Douleurs chroniques</h2>
-                        <p>L’<strong>hypnose</strong> peut permettre de modifier la perception de la <strong>douleur</strong> et d’apprendre à mobiliser des ressources internes pour retrouver davantage de confort au quotidien.</p>
-                    </div>
-                </div>
-            </article>
-            <article class="grid-item content-card">
-                <div class="grid-content">
-                    <div class="grid-illu">
-                        <img src="res/nature.jpg" alt="Paysage calme pour accompagner les troubles du sommeil" loading="lazy" decoding="async" width="700" height="700" />
-                    </div>
-                    <div class="grid-text">
-                        <h2>Troubles du sommeil</h2>
-                        <p>En agissant sur le <strong>stress</strong>, les tensions et les ruminations mentales, l’<strong>hypnose</strong> peut favoriser un endormissement plus apaisé et améliorer la qualité du sommeil.</p>
-                    </div>
-                </div>
-            </article>
+            <a href="pages/comment/">Comment fonctionne l'hypnose ?</a>
+            <a href="pages/pourquoi/">Dans quels cas l'hypnose peut aider ?</a>
+            <a href="pages/pour-qui/">Pour qui est cet accompagnement ?</a>
+            <a href="pages/tarif/">Voir le tarif des séances</a>
         </div>
     </section>
 </div>
@@ -164,6 +126,7 @@
     </div>
 </body>
 </html>
+
 
 
 
