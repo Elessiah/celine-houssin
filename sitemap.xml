@@ -78,5 +78,11 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
-</urlset>
+    <url>
+        <loc>https://celine-houssin.fr/pages/avis/</loc>
+        <lastmod>2026-03-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url></urlset>
+
 

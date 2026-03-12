@@ -1,0 +1,139 @@
+﻿<< /Filter /FlateDecode /Length 1362 >>
+<< /Type /Page /Parent 2 0 R /Resources 4 0 R /Contents 3 0 R /MediaBox [0 0 595.28 841.89]
+<< /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /ColorSpace << /Cs1 5 0 R
+>> /Font << /TT1 6 0 R /TT2 7 0 R /TT3 9 0 R >> /XObject << /Im1 8 0 R /Im2
+10 0 R /Im3 11 0 R /Im4 12 0 R /Im5 13 0 R /Im6 14 0 R >> >>
+<< /Type /XObject /Subtype /Image /Width 534 /Height 304 /Interpolate true
+/ColorSpace 5 0 R /Intent /Perceptual /BitsPerComponent 8 /Length 46928 /Filter
+/DCTDecode >>
+8Photoshop 3.0
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+<< /Type /XObject /Subtype /Image /Width 698 /Height 402 /Interpolate true
+/ColorSpace 5 0 R /Intent /Perceptual /BitsPerComponent 8 /Length 60635 /Filter
+<< /Type /XObject /Subtype /Image /Width 548 /Height 388 /Interpolate true
+/ColorSpace 5 0 R /Intent /Perceptual /BitsPerComponent 8 /Length 140392 /Filter
+/FlateDecode >>
+!Blohh('dqNM
+F\C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C@C
+<< /Type /XObject /Subtype /Image /Width 519 /Height 257 /Interpolate true
+/ColorSpace 5 0 R /Intent /Perceptual /BitsPerComponent 8 /Length 45655 /Filter
+<< /Type /XObject /Subtype /Image /Width 505 /Height 457 /Interpolate true
+/ColorSpace 5 0 R /Intent /Perceptual /BitsPerComponent 8 /Length 80233 /Filter
+<< /Type /XObject /Subtype /Image /Width 488 /Height 236 /Interpolate true
+/ColorSpace 5 0 R /Intent /Perceptual /BitsPerComponent 8 /Length 68682 /Filter
+<< /N 3 /Alternate /DeviceRGB /Length 2612 /Filter /FlateDecode >>
+[ /ICCBased 16 0 R ]
+<< /Type /StructTreeRoot /K 17 0 R >>
+<< /Type /StructElem /S /Document /P 18 0 R /K [ 19 0 R 20 0 R 21 0 R 22 0 R
+23 0 R 24 0 R 25 0 R 26 0 R 27 0 R 28 0 R 29 0 R 30 0 R 31 0 R 32 0 R 33 0 R
+34 0 R 35 0 R 36 0 R 37 0 R 38 0 R 39 0 R 40 0 R 41 0 R ]  >>
+<< /Type /StructElem /S /P /P 17 0 R /Pg 1 0 R /K 1  >>
+<< /Type /StructElem /S /P /P 17 0 R /Pg 1 0 R /K 2  >>
+<< /Type /StructElem /S /P /P 17 0 R /Pg 1 0 R /K 3  >>
+<< /Type /StructElem /S /Figure /P 17 0 R /Pg 1 0 R /K 4  >>
+<< /Type /StructElem /S /Figure /P 17 0 R /Pg 1 0 R /K 5  >>
+<< /Type /StructElem /S /P /P 17 0 R /Pg 1 0 R /K 6  >>
+<< /Type /StructElem /S /Figure /P 17 0 R /Pg 1 0 R /K 7  >>
+<< /Type /StructElem /S /Figure /P 17 0 R /Pg 1 0 R /K 8  >>
+<< /Type /StructElem /S /Figure /P 17 0 R /Pg 1 0 R /K 9  >>
+<< /Type /StructElem /S /Figure /P 17 0 R /Pg 1 0 R /K 10  >>
+<< /Type /StructElem /S /Figure /P 17 0 R /Pg 1 0 R /K 11  >>
+<< /Type /StructElem /S /Figure /P 17 0 R /Pg 1 0 R /K 12  >>
+<< /Type /StructElem /S /P /P 17 0 R /Pg 1 0 R /K 13  >>
+<< /Type /StructElem /S /Figure /P 17 0 R /Pg 1 0 R /K 14  >>
+<< /Type /StructElem /S /P /P 17 0 R /Pg 1 0 R /K 15  >>
+<< /Type /StructElem /S /Figure /P 17 0 R /Pg 1 0 R /K 16  >>
+<< /Type /StructElem /S /P /P 17 0 R /Pg 1 0 R /K 17  >>
+<< /Type /StructElem /S /Figure /P 17 0 R /Pg 1 0 R /K 18  >>
+<< /Type /StructElem /S /P /P 17 0 R /Pg 1 0 R /K 19  >>
+<< /Type /StructElem /S /Figure /P 17 0 R /Pg 1 0 R /K 20  >>
+<< /Type /StructElem /S /P /P 17 0 R /Pg 1 0 R /K 21  >>
+<< /Type /StructElem /S /Figure /P 17 0 R /Pg 1 0 R /K 22  >>
+<< /Type /StructElem /S /P /P 17 0 R /Pg 1 0 R /K 23  >>
+<< /Type /Pages /MediaBox [0 0 595.28 841.89] /Count 1 /Kids [ 1 0 R ] >>
+<< /Type /Catalog /Pages 2 0 R /MarkInfo << /Marked true >> /StructTreeRoot
+[ 1 0 R  /XYZ 0 841.89 0 ]
+<< /Type /Font /Subtype /TrueType /BaseFont /AAAAAB+HelveticaNeue /FontDescriptor
+43 0 R /Encoding /MacRomanEncoding /FirstChar 32 /LastChar 213 /Widths [ 278
+0 0 0 0 0 0 0 0 0 0 0 278 389 278 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+722 704 0 0 0 0 0 519 0 556 871 0 0 0 0 0 0 0 0 611 0 0 0 0 0 0 0 0 0 0 537
+593 537 593 537 296 574 556 222 0 0 222 853 556 574 593 593 333 500 315 556
+500 0 518 500 0 0 0 0 0 0 0 0 0 0 0 0 0 0 537 0 0 0 0 537 537 537 537 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1000 0 0 0 278 ] >>
+<< /Type /FontDescriptor /FontName /AAAAAB+HelveticaNeue /Flags 32 /FontBBox
+[-951 -481 1987 1077] /ItalicAngle 0 /Ascent 952 /Descent -213 /CapHeight
+714 /StemV 95 /Leading 28 /XHeight 517 /StemH 80 /AvgWidth 447 /MaxWidth 2225
+/FontFile2 44 0 R >>
+<< /Length1 9128 /Length 5066 /Filter /FlateDecode >>
+<< /Type /Font /Subtype /TrueType /BaseFont /AAAAAC+HelveticaNeue /FontDescriptor
+45 0 R /ToUnicode 46 0 R /FirstChar 33 /LastChar 33 /Widths [ 278 ] >>
+<< /Length 222 /Filter /FlateDecode >>
+<< /Type /FontDescriptor /FontName /AAAAAC+HelveticaNeue /Flags 4 /FontBBox
+/FontFile2 47 0 R >>
+<< /Length1 1788 /Length 845 /Filter /FlateDecode >>
+<< /Type /Font /Subtype /TrueType /BaseFont /AAAAAD+HelveticaNeue-Bold /FontDescriptor
+48 0 R /Encoding /MacRomanEncoding /FirstChar 32 /LastChar 86 /Widths [ 278
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 685 0 0 0
+0 0 0 0 295 0 0 0 0 0 0 0 0 0 649 0 0 630 ] >>
+<< /Type /FontDescriptor /FontName /AAAAAD+HelveticaNeue-Bold /Flags 32 /FontBBox
+[-1018 -481 1437 1141] /ItalicAngle 0 /Ascent 975 /Descent -217 /CapHeight
+714 /StemV 157 /Leading 29 /XHeight 517 /StemH 132 /AvgWidth 478 /MaxWidth
+1500 /FontFile2 49 0 R >>
+<< /Length1 2572 /Length 1367 /Filter /FlateDecode >>
+<< /Title (AVIS cece) /Producer (macOS Version 12.7.6 \(assemblage 21H1320\) Quartz PDFContext)
+/Creator (Pages) /CreationDate (D:20260312123506Z00'00') /ModDate (D:20260312123506Z00'00')
+0000000000 65535 f
+0000001457 00000 n
+0000450313 00000 n
+0000000022 00000 n
+0000001567 00000 n
+0000448256 00000 n
+0000450547 00000 n
+0000456585 00000 n
+0000001796 00000 n
+0000458245 00000 n
+0000048926 00000 n
+0000109764 00000 n
+0000250362 00000 n
+0000296220 00000 n
+0000376656 00000 n
+0000450504 00000 n
+0000445543 00000 n
+0000448346 00000 n
+0000448292 00000 n
+0000448578 00000 n
+0000448650 00000 n
+0000448722 00000 n
+0000448794 00000 n
+0000448871 00000 n
+0000448948 00000 n
+0000449020 00000 n
+0000449097 00000 n
+0000449174 00000 n
+0000449251 00000 n
+0000449329 00000 n
+0000449407 00000 n
+0000449485 00000 n
+0000449558 00000 n
+0000449636 00000 n
+0000449709 00000 n
+0000449787 00000 n
+0000449860 00000 n
+0000449938 00000 n
+0000450011 00000 n
+0000450089 00000 n
+0000450162 00000 n
+0000450240 00000 n
+0000450402 00000 n
+0000451165 00000 n
+0000451431 00000 n
+0000457048 00000 n
+0000456753 00000 n
+0000457313 00000 n
+0000458544 00000 n
+0000458818 00000 n
+0000460273 00000 n
+<< /Size 51 /Root 42 0 R /Info 50 0 R /ID [ <06859e137d07f8720a2f114d84e4ebf4>
+<06859e137d07f8720a2f114d84e4ebf4> ] >>
