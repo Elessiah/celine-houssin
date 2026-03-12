@@ -1388,3 +1388,18 @@ h4 {
         grid-template-columns: 1fr;
     }
 }
+
+.review-quote {
+    margin: 0 0 0.55rem 0;
+    color: #4f4544;
+    font-size: 1.04rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.review-meta {
+    margin: 0;
+    color: #7a6d6a;
+    font-size: 0.95rem;
+    font-style: italic;
+}
