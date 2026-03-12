@@ -305,6 +305,19 @@ h4 {
     text-align: left;
 }
 
+.page-conclusion {
+    margin-top: 0.2rem;
+    margin-bottom: 0;
+    padding: 0.75rem 0.85rem;
+    border-left: 4px solid #d79aab;
+    border-radius: 10px;
+    background: #fff7f4;
+    color: #4b4342;
+    font-size: 1.06rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
 .grid-text strong,
 .home-intro strong,
 .legal-page strong {
@@ -836,7 +849,7 @@ h4 {
         right: 0.7rem;
         bottom: calc(6.8rem + env(safe-area-inset-bottom));
         margin: 0;
-        z-index: 1200;
+        z-index: 1330;
         max-height: none;
         overflow-y: auto;
         border-radius: 20px;
@@ -859,7 +872,7 @@ h4 {
         margin: 0;
         padding: 0;
         background: rgba(29, 19, 24, 0.42);
-        z-index: 1150;
+        z-index: 1320;
     }
 
     body.side-open #mobile-side-backdrop {
@@ -875,7 +888,7 @@ h4 {
         left: 50%;
         right: auto;
         transform: translateX(-50%);
-        z-index: 1250;
+        z-index: 1340;
         border-radius: 999px;
         text-decoration: none;
         font-weight: 700;
@@ -964,6 +977,11 @@ h4 {
 
     body.nav-open {
         overflow: hidden;
+    }
+
+    .side {
+        top: calc(5.35rem + env(safe-area-inset-top));
+        max-height: calc(100vh - 5.35rem - 6.8rem - env(safe-area-inset-top) - env(safe-area-inset-bottom));
     }
 
     #mobile-nav-backdrop {
@@ -1142,6 +1160,11 @@ h4 {
         padding: 0.75rem;
     }
 
+    .page-conclusion {
+        padding: 0.68rem 0.72rem;
+        font-size: 1.03rem;
+    }
+
     .grid-content {
         flex-direction: column;
     }
@@ -1214,6 +1237,10 @@ h4 {
         justify-content: center;
     }
 }
+
+
+
+
 
 
 
