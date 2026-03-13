@@ -34,7 +34,7 @@ body {
 }
 
 .side {
-    background: linear-gradient(180deg, #f6e8e2 0%, #f0e0d9 100%);
+    background: linear-gradient(180deg, #f8f2ea 0%, #f3ebe1 100%);
     border: 1px solid var(--line);
     border-radius: 28px;
     box-shadow: var(--shadow);
@@ -803,10 +803,18 @@ h4 {
     }
 
     .side-logo {
-        width: min(58%, 132px);
-        max-height: 88px;
-        margin: 0.18rem auto 0;
-    }
+    width: min(68%, 156px);
+    max-width: 100%;
+    height: auto;
+    max-height: 110px;
+    border-radius: 0;
+    object-fit: contain;
+    object-position: center;
+    clip-path: none;
+    display: block;
+    margin: 0.24rem auto 0;
+}
+
 }
 
 #mobile-side-toggle,
